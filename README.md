@@ -4,7 +4,7 @@ A cutting-edge web application that leverages advanced deep learning models to a
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -23,7 +23,7 @@ A cutting-edge web application that leverages advanced deep learning models to a
 
 ---
 
-## 🎯 Overview
+## Overview
 
 DermaScan AI is an intelligent dermatological assessment platform designed to:
 
@@ -37,7 +37,7 @@ The application runs on **Streamlit**, providing a responsive, real-time web int
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Features
 
@@ -72,7 +72,7 @@ The application runs on **Streamlit**, providing a responsive, real-time web int
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -107,7 +107,7 @@ The application runs on **Streamlit**, providing a responsive, real-time web int
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -240,7 +240,7 @@ LABELS = [
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Starting the Application
 
@@ -293,7 +293,7 @@ The application will open at `http://localhost:8501` in your default browser.
 
 ---
 
-## 🔌 API Integration
+##  API Integration
 
 ### Google Generative AI (Gemini)
 
@@ -319,7 +319,7 @@ The application will open at `http://localhost:8501` in your default browser.
 
 ---
 
-## 🧠 Model Specifications
+##  Model Specifications
 
 ### Custom CNN Model
 
@@ -378,7 +378,7 @@ Normalize (0-1) → Add Batch Dimension → Model Input
 
 #### 1. Model Files Not Found
 
-**Error:** `❌ Error: Model file 'custom_cnn_model.h5' not found.`
+**Error:** ` Error: Model file 'custom_cnn_model.h5' not found.`
 
 **Solution:**
 - Verify model files exist in the project directory
@@ -464,7 +464,7 @@ streamlit run app.py --logger.level=error
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DermaScan AI/
@@ -489,7 +489,7 @@ DermaScan AI/
 
 ---
 
-## ⚡ Performance Optimization
+##  Performance Optimization
 
 ### Model Loading Optimization
 
@@ -542,15 +542,15 @@ model = load_model(path, compile=False)
 
 ---
 
-## 🔒 Security Best Practices
+##  Security Best Practices
 
 ### 1. API Key Management
 
 ```python
-# ✅ GOOD: Use environment variables
+#  GOOD: Use environment variables
 api_key = os.getenv("GEMINI_API_KEY")
 
-# ❌ BAD: Never hardcode API keys
+#  BAD: Never hardcode API keys
 api_key = "AIzaSyDxxx..."
 ```
 
@@ -620,7 +620,7 @@ pip audit  # Check for vulnerabilities
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 ### How to Contribute
 
@@ -663,20 +663,20 @@ pip audit  # Check for vulnerabilities
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License** - see LICENSE file for details.
 
 **MIT License Summary:**
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ❌ Warranty not provided
-- ⚠️ Attribution required
+-  Commercial use allowed
+- Modification allowed
+-  Distribution allowed
+- Warranty not provided
+-  Attribution required
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 ### Documentation
 - [Streamlit Documentation](https://docs.streamlit.io/)
@@ -696,7 +696,7 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 
 ---
 
-## 🐛 Issue Reporting
+##  Issue Reporting
 
 Found a bug? Have a suggestion?
 
@@ -712,7 +712,7 @@ Found a bug? Have a suggestion?
 
 ---
 
-## 👥 Support
+##  Support
 
 For questions, issues, or suggestions:
 
@@ -723,7 +723,7 @@ For questions, issues, or suggestions:
 
 ---
 
-## 🎉 Acknowledgments
+## Acknowledgments
 
 - Google Generative AI team for Gemini API
 - Streamlit team for the amazing web framework
@@ -732,7 +732,7 @@ For questions, issues, or suggestions:
 
 ---
 
-## 🚦 Project Status
+## Project Status
 
 - **Current Version:** 1.0.0
 - **Status:** Production Ready ✅
@@ -740,8 +740,7 @@ For questions, issues, or suggestions:
 - **Maintenance:** Active
 
 ---
-
-## 📊 Performance Metrics
+##  Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -754,7 +753,7 @@ For questions, issues, or suggestions:
 
 ---
 
-## 📞 Contact & Feedback
+##  Contact & Feedback
 
 We'd love to hear from you! Your feedback helps us improve DermaScan AI.
 
@@ -764,10 +763,10 @@ We'd love to hear from you! Your feedback helps us improve DermaScan AI.
 
 ---
 
-**Made with ❤️ for better skin health diagnosis**
+**Made with  for better skin health diagnosis**
 
 *Disclaimer: DermaScan AI is a diagnostic assistance tool and should not be used as a substitute for professional medical advice. Always consult with a qualified dermatologist for accurate diagnosis and treatment.*
 
 ---
 
-**Happy scanning! 🔬**
+**Happy scanning! **
